@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> Week 3
 /* ============================== MAIN STYLE ============================= */
 
 body{
@@ -93,6 +97,29 @@ h1,h2{
 #gallery #main {
 	padding-left: 20px;
 
+<<<<<<< HEAD
+}
+
+
+#gallery #main li {
+	float: left;
+	width: 160px;
+	margin: 0 40px 0 0;
+}
+
+#gallery #main li img {
+	display: block;
+	width: 100%;
+}
+
+
+/* Backgrounds and colors */
+
+#gallery #main li {
+	background: #def url("../images/Simplyblue.png") no-repeat top left;
+	color: #333;
+	margin-bottom: 0.5em;
+=======
 }
 
 
@@ -120,6 +147,101 @@ h1,h2{
 	padding: 0.5em 1em;
 }
 
+#gallery #main li p.desc {
+	background: transparent url("../images/Simplyblue.png") no-repeat bottom right;
+	font-style: italic;
+>>>>>>> Week 3
+}
+	
+
+/* =============================== END GALLERY =============================== */
+     
+     
+/* =Media Queries
+=============================================================================== */
+  
+    /* Tablet Portrait Size to standard 960 (devices and brosers) */
+     @media screen and {min-width: 768px) and (max-width: 959px)
+     
+
+	nav {
+		position: static;
+	}
+
+	h1 {
+		font-size: 99%;
+	}
+
+	h3, p, li {
+		font-size: 98%;
+	}
+
+
+  
+    /* Mobile Landscape Size to Tablet Portrait (devices and brosers) */
+     @media screen and {min-width: 480px) and (max-width: 767px) {
+
+	#tj_widescreen {
+		width: 100%;
+		clear: left;
+	}
+
+	#sheisme {
+		clear: left;
+	}
+
+	#article {
+		-moz-column-count: 2;
+	}
+
+	#div {
+		width: 100%;
+	}
+
+	h2 {
+		font-size: 99%;
+	}
+
+	h3, p, li {
+		font-size: 97%;
+	}
+
+
+<<<<<<< HEAD
+#gallery #main li p {
+	padding: 0.5em 1em;
+=======
+>>>>>>> Week 3
+}
+  
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and brosers) */
+     @media screen and {max-width: 479px) {
+
+    #tj_widescreen {
+		display: none;
+	}
+
+
+	#sheisme {
+		clear: left;
+	}
+
+	#div {
+		width: 100%;
+	}
+
+
+	h2 {
+		font-size: 99%;
+	}
+
+	h3, p, li {
+		font-size: 96%;
+	}
+
+
+
+<<<<<<< HEAD
 #gallery #main li p.desc {
 	background: transparent url("../images/Simplyblue.png") no-repeat bottom right;
 	font-style: italic;
@@ -209,5 +331,8 @@ h1,h2{
 
 
 }
+=======
+}
+>>>>>>> Week 3
 
      
